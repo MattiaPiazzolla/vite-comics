@@ -2,6 +2,7 @@
 export default {
     data(){
         return{
+            // definisco un array di oggetti per rendere più modulare la navbar
             links:[
                 {
                     label: 'CHARACTERS',
@@ -101,7 +102,7 @@ li{
 }
 .active{
     color: #0081F8;
-    padding: 30px 0;
+    padding: 31px 0;
     border-bottom: 4px solid #0081F8;
 }
 </style>
