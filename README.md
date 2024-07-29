@@ -20,4 +20,4 @@ SCOMPOSIZIONE PROBLEMA
 > >
 > > > Definisco lo stile di ogni componente
 > > > Compongo la struttura principale utilizzando le componenti create
-> > > Definisco lo stile dell'applicazione
+> > > Definisco lo stile della
