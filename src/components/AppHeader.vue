@@ -80,7 +80,7 @@ export default {
         </div>
     </header>
 </template>
-<style lang="scss"> 
+<style lang="scss" scoped> 
 header{
     height: 75px;
 }
@@ -102,7 +102,7 @@ li{
 }
 .active{
     color: #0081F8;
-    padding: 31px 0;
+    padding: 32px 0;
     border-bottom: 4px solid #0081F8;
 }
 </style>
