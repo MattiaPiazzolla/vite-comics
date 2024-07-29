@@ -83,6 +83,7 @@ export default {
 <style lang="scss" scoped> 
 header{
     height: 75px;
+    overflow: hidden;
 }
 img{
     width: 50px;

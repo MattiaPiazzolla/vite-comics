@@ -48,6 +48,7 @@ export default {
     .banner{
         background-color: #0081F8;
         height: 100px;
+        overflow: hidden;
     }
 
     li{
