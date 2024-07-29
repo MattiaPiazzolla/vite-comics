@@ -6,7 +6,7 @@ export default {
 <template>
     <main class="p-4 text-light">
         <div class="container">
-            <h5>-->Content goes here<--</h5>
+            <h5>--&gt;Content goes here&lt;--</h5>
         </div>
     </main>
 </template>

@@ -2,10 +2,12 @@
 // importo la componete per l'header
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import AppBanner from './components/AppBanner.vue';
 export default {
   components: {
     AppHeader,
-    AppMain
+    AppMain,
+    AppBanner
   }
 }
 </script>
@@ -13,6 +15,7 @@ export default {
   <div>
     <AppHeader />
     <AppMain />
+    <AppBanner />
   </div>
 </template>
 <style lang="scss">
