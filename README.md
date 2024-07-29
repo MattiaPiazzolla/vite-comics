@@ -11,3 +11,13 @@ Bonus:
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
 SCOMPOSIZIONE PROBLEMA
+
+> Installo tutti i pacchetti necessari (bootstap e fontawesome)
+> Importo i pacchetti installati
+> Definisco la struttura del progetto
+>
+> > Creo le componenti per ogni sezione dell'app
+> >
+> > > Definisco lo stile di ogni componente
+> > > Compongo la struttura principale utilizzando le componenti create
+> > > Definisco lo stile dell'applicazione
