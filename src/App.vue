@@ -1,11 +1,15 @@
 <script>
+// importo la componete per l'header
+import AppHeader from './components/AppHeader.vue';
 export default {
-  
+  components: {
+    AppHeader
+  }
 }
 </script>
 <template>
   <div>
-    <i class="fa-solid fab fa-airbnb"></i>
+    <AppHeader />
   </div>
 </template>
 <style lang="scss">
