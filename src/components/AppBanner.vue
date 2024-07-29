@@ -37,7 +37,7 @@ export default {
     <div class="banner d-flex align-items-center justify-content-center">
         <div class="container text-center">
             <ul class="list-unstyled d-flex justify-content-center m-0 p-0">
-                <li v-for="(elem, index) in bannerElements" :key="index" class="text-light d-flex align-items-center me-5">
+                <li v-for="(elem, index) in bannerElements" :key="index" class="text-light d-flex justify-content-center align-items-center me-5">
                     <a :href="elem.url" class="text-decoration-none d-flex align-items-center"><img :src="elem.icon" class="me-2" :alt="elem.text">{{ elem.text }}</a>
                 </li>
             </ul>
