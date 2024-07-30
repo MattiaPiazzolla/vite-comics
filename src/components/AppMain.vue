@@ -1,12 +1,18 @@
 <script>
+import AppCard from './partials/AppCard.vue';
+
 export default {
+    components:{
+        AppCard,
+    },
     
 }
 </script>
 <template>
     <main class="p-4 text-light">
         <div class="container">
-            <h5>--&gt;Content goes here&lt;--</h5>
+            
+            <AppCard />
         </div>
     </main>
 </template>
