@@ -1,9 +1,15 @@
 <script>
 import AppCard from './partials/AppCard.vue';
+import comics from '../data/comics';
 
 export default {
     components:{
         AppCard,
+    },
+    data() {
+        return {
+            comics
+        }
     },
     
 }
@@ -13,6 +19,12 @@ export default {
         <div class="container">
             
             <AppCard />
+
+            <ul>
+                <li v-for="comic, index in comics" :key="index">
+                    <img :src="comic.thumb" alt="">
+                </li>
+            </ul>
         </div>
     </main>
 </template>
