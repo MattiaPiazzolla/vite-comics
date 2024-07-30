@@ -6,58 +6,57 @@ export default {
 <template>
     <footer>
         <div class="topFooter">
-            <div class="container p-4">
+            <div class="container">
                 <div class="row">
-                    <div class="col-5">
-                        <div class="row">
-                            <div class="col-4">
-                                <p class="footerTitle m-0">DC COMICS</p>
-                                <ul class="list-unstyled mt-2">
-                                    <li><a href="#">Charachters</a></li>
-                                    <li><a href="#">Comics</a></li>
-                                    <li><a href="#">Movies</a></li>
-                                    <li><a href="#">TV</a></li>
-                                    <li><a href="#">Games</a></li>
-                                    <li><a href="#">Videos</a></li>
-                                    <li><a href="#">News</a></li>
-                                </ul>
-                                <p class="footerTitle m-0">SHOP</p>
-                                <ul class="list-unstyled mt-2">
-                                    <li><a href="#">Shop DC</a></li>
-                                    <li><a href="#">Shop DC Collectibles</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-4">
-                                <p class="footerTitle m-0">DC</p>
-                                <ul class="list-unstyled mt-2">
-                                    <li><a href="#">Terms Of Use</a></li>
-                                    <li><a href="#">Privacy policy (new)</a></li>
-                                    <li><a href="#">Ad Choices</a></li>
-                                    <li><a href="#">Advertising</a></li>
-                                    <li><a href="#">Jobs</a></li>
-                                    <li><a href="#">Subscriptions</a></li>
-                                    <li><a href="#">Talent Workshop</a></li>
-                                    <li><a href="#">CPSC Certificates</a></li>
-                                    <li><a href="#">Ratings</a></li>
-                                    <li><a href="#">Shop Help</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-
-                                </ul>
-                            </div>
-                            <div class="col-4">
-                                <p class="footerTitle m-0">SITES</p>
-                                <ul class="list-unstyled mt-2">
-                                    <li><a href="#">DC</a></li>
-                                    <li><a href="#">MAD magazine</a></li>
-                                    <li><a href="#">DC kids</a></li>
-                                    <li><a href="#">DC Universe</a></li>
-                                    <li><a href="#">DC Power Visa</a></li>
-                                </ul>
+                    <div class="topfooterright">           
+                        <div class="w-50 p-4">
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="footerTitle m-0">DC COMICS</p>
+                                    <ul class="list-unstyled mt-2">
+                                        <li><a href="#">Charachters</a></li>
+                                        <li><a href="#">Comics</a></li>
+                                        <li><a href="#">Movies</a></li>
+                                        <li><a href="#">TV</a></li>
+                                        <li><a href="#">Games</a></li>
+                                        <li><a href="#">Videos</a></li>
+                                        <li><a href="#">News</a></li>
+                                    </ul>
+                                    <p class="footerTitle m-0">SHOP</p>
+                                    <ul class="list-unstyled mt-2">
+                                        <li><a href="#">Shop DC</a></li>
+                                        <li><a href="#">Shop DC Collectibles</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <p class="footerTitle m-0">DC</p>
+                                    <ul class="list-unstyled mt-2">
+                                        <li><a href="#">Terms Of Use</a></li>
+                                        <li><a href="#">Privacy policy (new)</a></li>
+                                        <li><a href="#">Ad Choices</a></li>
+                                        <li><a href="#">Advertising</a></li>
+                                        <li><a href="#">Jobs</a></li>
+                                        <li><a href="#">Subscriptions</a></li>
+                                        <li><a href="#">Talent Workshop</a></li>
+                                        <li><a href="#">CPSC Certificates</a></li>
+                                        <li><a href="#">Ratings</a></li>
+                                        <li><a href="#">Shop Help</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+        
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <p class="footerTitle m-0">SITES</p>
+                                    <ul class="list-unstyled mt-2">
+                                        <li><a href="#">DC</a></li>
+                                        <li><a href="#">MAD magazine</a></li>
+                                        <li><a href="#">DC kids</a></li>
+                                        <li><a href="#">DC Universe</a></li>
+                                        <li><a href="#">DC Power Visa</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-7 position-relative">
-                        <img src="/public/dc-logo-bg.png" class="decorationLogo" alt="">
                     </div>
                 </div>
             </div>
@@ -100,6 +99,13 @@ export default {
         background-size: cover;
         position: relative;
         overflow: hidden;
+    }
+    .topfooterright{
+        background-image: url('/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 400px;
+        
     }
     .bottomFooter{
         background-color: #303030;
