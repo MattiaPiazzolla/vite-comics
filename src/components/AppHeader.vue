@@ -71,7 +71,7 @@ export default {
                 <div class="col-9 d-flex align-items-center h-100 justify-content-end">
                     <!-- aggiungo la lista per la navbar -->
                     <ul class="list-unstyled d-flex mb-0">
-                        <li v-for="(link, index) in links" :key="index" class="ms-3">
+                        <li v-for="(link, index) in links" :key="index" class="ms-2">
                             <a :href="link.url" :class="link.current ? 'active' : ''">{{ link.label }}</a>
                         </li>
                     </ul>

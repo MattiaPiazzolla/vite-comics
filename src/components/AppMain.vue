@@ -19,17 +19,23 @@ export default {
         <div class="container">
             
             <AppCard />
-
-            <ul>
-                <li v-for="comic, index in comics" :key="index">
-                    <img :src="comic.thumb" alt="">
-                </li>
-            </ul>
+            <div class="row row-cols-lg-6 row-cols-md-4 row-cols-sm-3 row-cols-2 gx-0">
+                <div class="col p-2" v-for="comic, index in comics" :key="index">
+                    <img :src="comic.thumb" alt="" class="comicCover">
+                    <p class="comicTitle mb-3 text-uppercase">{{ comic.series }}</p>
+                </div>
+            </div>
         </div>
     </main>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
     main{
         background-color: #1C1C1C;
     }
+    .comicTitle{
+        font-size: 0.7rem;
+        margin-top: 10px;
+        
+    }
+    
 </style>
